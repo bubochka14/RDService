@@ -6,7 +6,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 
 option(ENABLE_TESTING "" OFF)
-list(APPEND CMAKE_PREFIX_PATH "Path to qt")
+list(APPEND CMAKE_PREFIX_PATH "C:/Qt/6.3.2/msvc2019_64/lib/cmake")
 
 find_package(Qt6 COMPONENTS Core)
 find_package(Qt6 COMPONENTS Gui)
