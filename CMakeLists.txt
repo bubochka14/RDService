@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.2)
+project(RDSessionViewer VERSION 0.01 LANGUAGES CXX C)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+
+option(ENABLE_TESTING "" OFF)
+list(APPEND CMAKE_PREFIX_PATH "Path to qt")
+
+find_package(Qt6 COMPONENTS Core)
+find_package(Qt6 COMPONENTS Gui)
+find_package(Qt6 COMPONENTS Qml)
+find_package(Qt6 COMPONENTS Quick)
+find_package(Qt6 COMPONENTS Widgets)
+find_package(Qt6 COMPONENTS Test)
