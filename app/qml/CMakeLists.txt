@@ -5,4 +5,3 @@ list(APPEND QML_IMPORT_PATHS "${QML_PATH}")
 #	VERSION 1.0
 #	URI "app.qml.qml_module"
 ##	QML_FILES MainWindow.qml
-)
